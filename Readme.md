@@ -1,1 +1,3 @@
-<video src="resources/Task-1.mp4 autoplay controls>
+<h1>Responsive Landing Page</h1>
+<img src="![image](https://github.com/mithun0524/PRODIGY_WD_01/assets/129926064/02ded915-3509-43e5-9414-1418a938c4cf)">
+![image](https://github.com/mithun0524/PRODIGY_WD_01/assets/129926064/02ded915-3509-43e5-9414-1418a938c4cf)
