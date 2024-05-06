@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Micro+5+Charted&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flyers</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="navigation-bar" data-color="blue">
+      <div>
+        <ul class="nav-links sidebar">
+          <li onclick=hideMenu()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#templates">Templates</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul class="nav-links">
+          <li onclick=showSidebar() class="showOnMobile"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+          <li class="hideOnMobile"><a href="index.html">Home</a></li>
+          <li class="hideOnMobile"><a href="#templates">Templates</a></li>
+          <li class="hideOnMobile"><a href="#">About</a></li>
+          <li class="hideOnMobile"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="index.html" class="logo">
+          <p>Flyers</p>
+        </a>
+      </div>
+      <div>
+        <a href="#"><button class="navlink-btn sign">Sign-in / Sign-up</button></a>
+        <a href="#"><button class="navlink-btn seller">Become a Contributer</button></a>
+      </div>
+    </div>
+
+    <section class="content home" id="home" data-color="indigo">
+      <div class="home-container">
+        <p id="headline">Flyer Maker Online:</p>
+        <h3>Create Stunning Flyers in Minutes</h3>
+        <button class="create-btn">Create now</button>
+        <div class="searchbar">
+          <input id="search" type="search" placeholder="Search for Templates">
+          <button id="search-btn">Search</button>
+          <p>example: poster, illustration, mininal, etc</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="content" id="templates" data-color="blue">
+      <div id="template">
+        <h1 id="headline">Choose from a wide range of templates</h1>
+        <p>We have a collection of templates that will suit your project needs.</p>
+        <h2>Templates</h2>
+        <div class="template">
+          <div class="template-grid">
+            <div class="img">
+            <img src="https://img.freepik.com/free-psd/flat-design-picnic-party-template_23-2149664076.jpg?w=740&t=st=1714920120~exp=1714920720~hmac=74b4ae3e544cd65120cb3de576049e0cae8899af8e4022c4e0d3530732be3e32" alt="">
+            <div>
+              <button class="edit-btn">Edit</button>
+              <button class="edit-btn">Download</button>
+            </div>
+            </div>
+          </div>
+          <div class="template-grid">
+            <div class="img">
+            <img src="https://img.freepik.com/free-psd/business-business-flyer-template_23-2148939407.jpg?t=st=1714907006~exp=1714910606~hmac=16704dff66c098d8112c667cef4eb1d41fef68cba32cf9480f4f2bf1b2d0d803&w=740" alt="">
+            <div>
+              <button class="edit-btn">Edit</button>
+              <button class="edit-btn">Download</button>
+            </div>
+            </div>
+          </div>
+          <div class="template-grid">
+            <div class="img">
+              <img src="https://img.freepik.com/free-psd/flat-design-poster-travel-template_23-2149193993.jpg?t=st=1714912839~exp=1714916439~hmac=6bdad478440bacff7562be7bd2a6a415104d7c905fe538e13f85cbbed5b48cff&w=740" alt="">
+            <div>
+              <button class="edit-btn">Edit</button>
+              <button class="edit-btn">Download</button>
+            </div>
+            </div>
+          </div>
+          <div class="template-grid">
+            <div class="img">
+              <img src="https://img.freepik.com/free-psd/lohri-festival-celebration-poster-template_23-2151058521.jpg?t=st=1714907099~exp=1714910699~hmac=cbb357bd3ed8be431f4ec4a81cf2e64a2f0ded5c2f05a1be6e4609b74142a656&w=740" alt="">
+            <div>
+              <button class="edit-btn">Edit</button>
+              <button class="edit-btn">Download</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="content" id="About" data-color="orange">
+      <div class="footer">
+        Footer
+      </div>
+    </section>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script>
+    $(window).scroll(function() {
+    var $window = $(window),
+        $body = $('body'),
+        $content = $('.content');
+        $nav = $('.navigation-bar');
+
+    var scroll = $window.scrollTop() + ($window.height() / 3);
+    $content.each(function() {
+      var $this = $(this);
+      if($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+        $body.removeClass(function (index, css) {
+          return (css.match (/(^|\s)color-\S+/g) || []).join('');
+        });
+        $nav.removeClass(function (index, css) {
+          return (css.match (/(^|\s)color-\S+/g) || []).join('');
+        });
+        $body.addClass('color-' + $(this).data('color'));
+        $nav.addClass('color-' + $(this).data('color'));
+      }
+    });
+  }).scroll();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
